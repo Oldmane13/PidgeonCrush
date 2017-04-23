@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: dadba5a9a050e8d458ca127b71c09519
+timeCreated: 1492517519
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sensei
+  fontNames:
+  - Sensei
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7b96ffa3f6cab4b46b415ed0e153066f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

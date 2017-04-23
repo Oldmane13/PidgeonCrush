@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: f63a913f134f8b04491d3bd5fc14b9ac
+timeCreated: 1492730793
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Akrobat
+  fontNames:
+  - Akrobat
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 23ab75d1cc91c2f469d0881a1185afed, type: 3}
+  - {fileID: 12800000, guid: 3befc1c25f7a73a45a63816a3f8a5406, type: 3}
+  - {fileID: 12800000, guid: 12afdfb3e4b3c4840b8d39038d90f937, type: 3}
+  - {fileID: 12800000, guid: 9c63a8e55010fb54784e291a935f1c76, type: 3}
+  - {fileID: 12800000, guid: f2e9d516a60cd6243a4c4366b8b8f393, type: 3}
+  - {fileID: 12800000, guid: 9d4792cb000749849ba62a84e4ab987c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
