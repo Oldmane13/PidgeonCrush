@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8e83877f4142d3d4dbebede982376f02
+timeCreated: 1492737646
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Anim: {instanceID: 0}
+  - score: {instanceID: 0}
+  - feathers: {fileID: 1018314667527054, guid: b2fb10c792cc95e49a98f3bd322d34de, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
