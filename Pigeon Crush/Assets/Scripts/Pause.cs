@@ -8,11 +8,14 @@ public class Pause : MonoBehaviour
 	public bool isPaused;
 
 	public GameObject menuHolder;
-	public SpawnTest Death;
+	public GameController Death;
+	public MusicController musicIcon;
+
 	// Use this for initialization
 	void Start ()
 	{
-		Death = FindObjectOfType <SpawnTest> ();
+		Death = FindObjectOfType <GameController> ();
+		musicIcon = FindObjectOfType<MusicController> ();
 	}
 	
 	// Update is called once per frame
@@ -21,8 +24,9 @@ public class Pause : MonoBehaviour
 		if (isPaused && Death.rip == false) {
 			menuHolder.SetActive (true);
 			Time.timeScale = 0f;
+			//musicIcon.GetComponent<Renderer> ().enabled = true;
 		} else if (!isPaused && Death.rip == false) {
-		
+			//musicIcon.GetComponent<Renderer> ().enabled = false;
 			menuHolder.SetActive (false);
 			Time.timeScale = 1f;
 		}
@@ -30,10 +34,6 @@ public class Pause : MonoBehaviour
 		if (Input.GetMouseButtonDown (0) && entered == true) {
 			isPaused = !isPaused;
 		}
-
-		/*if (!isPaused || Death.rip == true) {
-			Time.timeScale = 0f;
-		}*/
 
 	}
 

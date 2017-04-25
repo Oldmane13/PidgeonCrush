@@ -47,12 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\DeathAnim.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\MusicController.cs" />
      <Compile Include="Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\Reload.cs" />
-     <Compile Include="Assets\Scripts\SpawnTest.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

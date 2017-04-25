@@ -8,13 +8,13 @@ public class Movement : MonoBehaviour {
 	public float timeBeforeGone;
 	public Animator Anim;
 	bool entered;
-	public SpawnTest score;
+	public GameController score;
 	public GameObject feathers;
 
 
 
 	void Start () {
-		score = FindObjectOfType<SpawnTest>();
+		score = FindObjectOfType<GameController>();
 
 	}
 
